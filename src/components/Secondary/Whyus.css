@@ -1,0 +1,11 @@
+.whyus{
+    display: flex;
+    gap: 1.5rem;
+}
+.left>img{
+    width: 400px;
+}
+.right>div>h1{
+    font-size: 50px;
+    color: whitesmoke;
+}

@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: aliceblue;
+    padding-top: 1.5rem;
+}
+.header-menu-item{
+    cursor: pointer;
+}
+.header-menu-item:hover{
+    color: orangered;
+}
