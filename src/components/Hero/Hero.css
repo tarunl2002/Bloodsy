@@ -155,9 +155,13 @@
     text-decoration: none;
     font-size: 2rem;
 }
+.social>ul>li>a{
+    color: white;
+    color:#CD104D;
+}
 .shade{
     transition: 2s;
 }
 .shade:hover{
-    left: 18rem;
+    translate: 17.5rem;
 }
