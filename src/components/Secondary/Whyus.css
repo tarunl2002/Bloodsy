@@ -9,3 +9,13 @@
     font-size: 50px;
     color: whitesmoke;
 }
+@media screen and (max-width: 600px){
+    .whyus{
+        flex-direction: column;
+    }
+    .left>img{
+        width: max-content;
+    }
+
+    
+}

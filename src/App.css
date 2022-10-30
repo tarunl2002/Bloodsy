@@ -37,3 +37,55 @@
 .btn:hover{
   cursor: pointer;
 }
+
+
+
+/*----------------css for mobile-----------------*/
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .header>img{
+    width: 80px;
+    height: 80px;
+  }
+  .header{
+    display: block;
+  }
+  .header-menu{
+    display: block;
+  }
+  .header-menu-item{
+    display: block;
+  }
+  .whyus{
+    display: block;
+    gap: 0;
+  }
+  .left>img{
+    width: 200px;
+ }
+ .header-menu{
+  flex-direction: column;
+  
+  }
+  .btn.reg{
+  border-radius: 50%;
+  }
+  .img-back{
+  display: none;
+  }
+  .hero-text{
+    flex-direction: column;
+    font-size: 3rem;
+  } 
+    
+  .slogan>div:hover{
+    left: -5rem;
+  }
+  .figures{
+    left: 0;
+    flex-direction: column;
+  }
+}

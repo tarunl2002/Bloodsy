@@ -3,6 +3,7 @@ import Header from './Header'
 import './Hero.css'
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -42,7 +43,9 @@ const Hero = () => {
             
         </div>
         <div className="right-h">
+            
             <button className="btn reg">Register</button>
+            
             <div>
                 <img src={Heart} alt="" className='heart'/>
             </div>

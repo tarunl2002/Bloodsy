@@ -52,7 +52,7 @@
     font-weight: bold;
     color: antiquewhite;
     text-overflow: inherit;
-}
+  }
 .hero-text>div{
     padding: 1.5rem;
     padding-top: 0;
@@ -164,4 +164,15 @@
 }
 .shade:hover{
     translate: 17.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .slogan{
+        left: -1.5rem;
+    }
+    .slogan>span{
+        font-size: 12px;
+    }
+    
+    
 }

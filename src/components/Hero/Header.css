@@ -14,7 +14,43 @@
     transition: 0.5s;
 }
 .header-menu-item:hover{
-    color: orangered;
+    
     scale: 1.3;
     right: 2rem;
+}
+.nav-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: orangered;
+}
+.fa-solid.fa-bars
+{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        flex-direction: column;
+    }
+    #menuToggle{
+        background-color: #F96666;
+        width: 75%;
+        transform: translate();
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+    #menuToggle>span{
+        
+        width: 33px;
+        height: 4px;
+        background-color: white;
+    }
+    .fa-solid.fa-bars{
+    display: block;
+    color: white;
+    }
+    
 }
